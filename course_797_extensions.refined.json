@@ -69,7 +69,7 @@
         "artifactsId": "ARTSET-SCN-L3",
         "placementsId": "PLC-SCN-L3",
         "name": {
-          "source": "Osaka Pulse",
+          "source": "Osaka Energy",
           "target": "大阪の熱",
           "romanization": "oosaka no netsu"
         }
@@ -95,7 +95,7 @@
         "artifactsId": "ARTSET-SCN-L5",
         "placementsId": "PLC-SCN-L5",
         "name": {
-          "source": "Okinawa Waves",
+          "source": "Okinawa Breeze",
           "target": "沖縄の波",
           "romanization": "okinawa no nami"
         }
@@ -2185,7 +2185,7 @@
           }
         ],
         "name": {
-          "source": "Osaka Pulse",
+          "source": "Osaka Energy",
           "target": "大阪の熱",
           "romanization": "oosaka no netsu"
         },
@@ -2747,7 +2747,7 @@
           }
         ],
         "name": {
-          "source": "Okinawa Waves",
+          "source": "Okinawa Breeze",
           "target": "沖縄の波",
           "romanization": "okinawa no nami"
         },
