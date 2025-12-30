@@ -1721,7 +1721,7 @@
             "target": "このスプリントでは、人に挨拶し、感謝を表現し、見知らぬ人と雑談する方法を学びます。また、助動詞「です」で文を作り、助詞「か」でYes/Noの質問をする方法も習得します。"
           },
           "type": "",
-          "status": "locked",
+          "status": "complete",
           "sessions": [],
           "foregroundImageId": "IMG-S1.1-FG",
           "backgroundImageId": null
@@ -1741,7 +1741,7 @@
             "target": "このスプリントでは、誰かが話せる言語や出身地を尋ね、伝える方法を学びます。また、動詞の現在形の肯定形と否定形、そして場所を示す助詞「に」の使い方も習得します。"
           },
           "type": "",
-          "status": "locked",
+          "status": "ready",
           "sessions": [],
           "foregroundImageId": "IMG-S1.2-FG",
           "backgroundImageId": null
@@ -1786,7 +1786,11 @@
           "foregroundImageId": "IMG-S1.4-FG",
           "backgroundImageId": null
         }
-      ]
+      ],
+      "progress": {
+        "lastCompletedSprintId": "S1.1",
+        "currentSprintId": "S1.2"
+      }
     },
     {
       "levelId": "L2",
@@ -2090,7 +2094,11 @@
           "foregroundImageId": "IMG-S2.10-FG",
           "backgroundImageId": null
         }
-      ]
+      ],
+      "progress": {
+        "lastCompletedSprintId": null,
+        "currentSprintId": null
+      }
     },
     {
       "levelId": "L3",
@@ -2367,7 +2375,11 @@
           "foregroundImageId": "IMG-S3.9-FG",
           "backgroundImageId": null
         }
-      ]
+      ],
+      "progress": {
+        "lastCompletedSprintId": null,
+        "currentSprintId": null
+      }
     },
     {
       "levelId": "L4",
@@ -2644,7 +2656,11 @@
           "foregroundImageId": "IMG-S4.9-FG",
           "backgroundImageId": null
         }
-      ]
+      ],
+      "progress": {
+        "lastCompletedSprintId": null,
+        "currentSprintId": null
+      }
     },
     {
       "levelId": "L5",
@@ -2921,7 +2937,11 @@
           "foregroundImageId": "IMG-S5.9-FG",
           "backgroundImageId": null
         }
-      ]
+      ],
+      "progress": {
+        "lastCompletedSprintId": null,
+        "currentSprintId": null
+      }
     }
   ]
 }
