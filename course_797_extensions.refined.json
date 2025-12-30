@@ -1723,8 +1723,8 @@
           "type": "",
           "status": "complete",
           "sessions": [],
-          "foregroundImageId": "IMG-S1.1-FG",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/small-talk-foreground.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/small-talk-background.png"
         },
         {
           "sprintId": "S1.2",
@@ -1743,8 +1743,8 @@
           "type": "",
           "status": "ready",
           "sessions": [],
-          "foregroundImageId": "IMG-S1.2-FG",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/directions-foreground.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/directions-background.png"
         },
         {
           "sprintId": "S1.3",
@@ -1763,8 +1763,8 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "IMG-S1.3-FG",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/introductions-professions-foreground.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/introductions-professions-background.png"
         },
         {
           "sprintId": "S1.4",
@@ -1783,8 +1783,8 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "IMG-S1.4-FG",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/info-personal-preferences-foreground.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/info-personal-preferences-background.png"
         }
       ],
       "progress": {
