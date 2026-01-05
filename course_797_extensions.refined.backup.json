@@ -4,13 +4,12 @@
   "releaseId": 45,
   "variant": "default",
   "metadata": {
-    "generatedAt": "2026-01-05T18:01:45.329664+00:00",
+    "generatedAt": "2025-12-29T22:20:12.213056+00:00",
     "sourceFile": "course_797_extensions.fixed.json",
     "optimizations": [
       "removed_duplicate_artifacts_from_levels",
       "added_validation_metadata",
-      "added_statistics",
-      "removed_redundant_scene_data"
+      "added_statistics"
     ],
     "validation": {
       "status": "passed",
@@ -30,8 +29,8 @@
     "note": "Artifacts are defined in sceneStack.sceneArtifacts. Access by sceneId.",
     "sizeMetrics": {
       "originalSize": 52778,
-      "refinedSize": 90714,
-      "reduction": "-71.9%"
+      "refinedSize": 38814,
+      "reduction": "26.5%"
     }
   },
   "sceneStack": {
@@ -1660,8 +1659,46 @@
       "scene": {
         "sceneId": "SCN-L1",
         "image": {
-          "imageId": "IMG-SCN-L1",
+          "baseSize": {
+            "width": 1000,
+            "height": 583
+          },
           "assets": []
+        },
+        "waypoints": [
+          {
+            "waypointId": "WP-L1-S1.1",
+            "sprintId": "S1.1",
+            "coordSystem": "percent",
+            "x": 45,
+            "y": 56
+          },
+          {
+            "waypointId": "WP-L1-S1.2",
+            "sprintId": "S1.2",
+            "coordSystem": "percent",
+            "x": 52,
+            "y": 58
+          },
+          {
+            "waypointId": "WP-L1-S1.3",
+            "sprintId": "S1.3",
+            "coordSystem": "percent",
+            "x": 58,
+            "y": 55
+          },
+          {
+            "waypointId": "WP-L1-S1.4",
+            "sprintId": "S1.4",
+            "coordSystem": "percent",
+            "x": 50,
+            "y": 63
+          }
+        ],
+        "name": {
+          "source": "Tokyo Nights",
+          "target": "東京の夜",
+          "romanization": "toukyou no yoru"
         },
         "description": {
           "source": "Unit 1: Introductions",
@@ -1768,8 +1805,88 @@
       "scene": {
         "sceneId": "SCN-L2",
         "image": {
-          "imageId": "IMG-SCN-L2",
+          "baseSize": {
+            "width": 1000,
+            "height": 583
+          },
           "assets": []
+        },
+        "waypoints": [
+          {
+            "waypointId": "WP-L2-S2.1",
+            "sprintId": "S2.1",
+            "coordSystem": "percent",
+            "x": 46,
+            "y": 55
+          },
+          {
+            "waypointId": "WP-L2-S2.2",
+            "sprintId": "S2.2",
+            "coordSystem": "percent",
+            "x": 51,
+            "y": 58
+          },
+          {
+            "waypointId": "WP-L2-S2.3",
+            "sprintId": "S2.3",
+            "coordSystem": "percent",
+            "x": 56,
+            "y": 54
+          },
+          {
+            "waypointId": "WP-L2-S2.4",
+            "sprintId": "S2.4",
+            "coordSystem": "percent",
+            "x": 49,
+            "y": 62
+          },
+          {
+            "waypointId": "WP-L2-S2.5",
+            "sprintId": "S2.5",
+            "coordSystem": "percent",
+            "x": 60,
+            "y": 61
+          },
+          {
+            "waypointId": "WP-L2-S2.6",
+            "sprintId": "S2.6",
+            "coordSystem": "percent",
+            "x": 44,
+            "y": 62
+          },
+          {
+            "waypointId": "WP-L2-S2.7",
+            "sprintId": "S2.7",
+            "coordSystem": "percent",
+            "x": 53,
+            "y": 52
+          },
+          {
+            "waypointId": "WP-L2-S2.8",
+            "sprintId": "S2.8",
+            "coordSystem": "percent",
+            "x": 57,
+            "y": 58
+          },
+          {
+            "waypointId": "WP-L2-S2.9",
+            "sprintId": "S2.9",
+            "coordSystem": "percent",
+            "x": 48,
+            "y": 54
+          },
+          {
+            "waypointId": "WP-L2-S2.10",
+            "sprintId": "S2.10",
+            "coordSystem": "percent",
+            "x": 54,
+            "y": 64
+          }
+        ],
+        "name": {
+          "source": "Kyoto Lanterns",
+          "target": "京都の灯",
+          "romanization": "kyouto no tomoshibi"
         },
         "description": {
           "source": "Unit 2: Connections",
@@ -1996,8 +2113,81 @@
       "scene": {
         "sceneId": "SCN-L3",
         "image": {
-          "imageId": "IMG-SCN-L3",
+          "baseSize": {
+            "width": 1000,
+            "height": 583
+          },
           "assets": []
+        },
+        "waypoints": [
+          {
+            "waypointId": "WP-L3-S3.1",
+            "sprintId": "S3.1",
+            "coordSystem": "percent",
+            "x": 47,
+            "y": 56
+          },
+          {
+            "waypointId": "WP-L3-S3.2",
+            "sprintId": "S3.2",
+            "coordSystem": "percent",
+            "x": 52,
+            "y": 59
+          },
+          {
+            "waypointId": "WP-L3-S3.3",
+            "sprintId": "S3.3",
+            "coordSystem": "percent",
+            "x": 58,
+            "y": 56
+          },
+          {
+            "waypointId": "WP-L3-S3.4",
+            "sprintId": "S3.4",
+            "coordSystem": "percent",
+            "x": 50,
+            "y": 64
+          },
+          {
+            "waypointId": "WP-L3-S3.5",
+            "sprintId": "S3.5",
+            "coordSystem": "percent",
+            "x": 61,
+            "y": 62
+          },
+          {
+            "waypointId": "WP-L3-S3.6",
+            "sprintId": "S3.6",
+            "coordSystem": "percent",
+            "x": 44,
+            "y": 61
+          },
+          {
+            "waypointId": "WP-L3-S3.7",
+            "sprintId": "S3.7",
+            "coordSystem": "percent",
+            "x": 55,
+            "y": 53
+          },
+          {
+            "waypointId": "WP-L3-S3.8",
+            "sprintId": "S3.8",
+            "coordSystem": "percent",
+            "x": 57,
+            "y": 60
+          },
+          {
+            "waypointId": "WP-L3-S3.9",
+            "sprintId": "S3.9",
+            "coordSystem": "percent",
+            "x": 49,
+            "y": 54
+          }
+        ],
+        "name": {
+          "source": "Osaka Pulse",
+          "target": "大阪の熱",
+          "romanization": "oosaka no netsu"
         },
         "description": {
           "source": "Unit 3: Community",
@@ -2204,8 +2394,81 @@
       "scene": {
         "sceneId": "SCN-L4",
         "image": {
-          "imageId": "IMG-SCN-L4",
+          "baseSize": {
+            "width": 1000,
+            "height": 583
+          },
           "assets": []
+        },
+        "waypoints": [
+          {
+            "waypointId": "WP-L4-S4.1",
+            "sprintId": "S4.1",
+            "coordSystem": "percent",
+            "x": 46,
+            "y": 57
+          },
+          {
+            "waypointId": "WP-L4-S4.2",
+            "sprintId": "S4.2",
+            "coordSystem": "percent",
+            "x": 51,
+            "y": 60
+          },
+          {
+            "waypointId": "WP-L4-S4.3",
+            "sprintId": "S4.3",
+            "coordSystem": "percent",
+            "x": 56,
+            "y": 56
+          },
+          {
+            "waypointId": "WP-L4-S4.4",
+            "sprintId": "S4.4",
+            "coordSystem": "percent",
+            "x": 49,
+            "y": 64
+          },
+          {
+            "waypointId": "WP-L4-S4.5",
+            "sprintId": "S4.5",
+            "coordSystem": "percent",
+            "x": 60,
+            "y": 62
+          },
+          {
+            "waypointId": "WP-L4-S4.6",
+            "sprintId": "S4.6",
+            "coordSystem": "percent",
+            "x": 44,
+            "y": 62
+          },
+          {
+            "waypointId": "WP-L4-S4.7",
+            "sprintId": "S4.7",
+            "coordSystem": "percent",
+            "x": 53,
+            "y": 54
+          },
+          {
+            "waypointId": "WP-L4-S4.8",
+            "sprintId": "S4.8",
+            "coordSystem": "percent",
+            "x": 58,
+            "y": 60
+          },
+          {
+            "waypointId": "WP-L4-S4.9",
+            "sprintId": "S4.9",
+            "coordSystem": "percent",
+            "x": 50,
+            "y": 55
+          }
+        ],
+        "name": {
+          "source": "Sapporo Snow",
+          "target": "札幌の雪",
+          "romanization": "sapporo no yuki"
         },
         "description": {
           "source": "Unit 4: Lifestyle",
@@ -2412,8 +2675,81 @@
       "scene": {
         "sceneId": "SCN-L5",
         "image": {
-          "imageId": "IMG-SCN-L5",
+          "baseSize": {
+            "width": 1000,
+            "height": 583
+          },
           "assets": []
+        },
+        "waypoints": [
+          {
+            "waypointId": "WP-L5-S5.1",
+            "sprintId": "S5.1",
+            "coordSystem": "percent",
+            "x": 47,
+            "y": 57
+          },
+          {
+            "waypointId": "WP-L5-S5.2",
+            "sprintId": "S5.2",
+            "coordSystem": "percent",
+            "x": 52,
+            "y": 60
+          },
+          {
+            "waypointId": "WP-L5-S5.3",
+            "sprintId": "S5.3",
+            "coordSystem": "percent",
+            "x": 58,
+            "y": 56
+          },
+          {
+            "waypointId": "WP-L5-S5.4",
+            "sprintId": "S5.4",
+            "coordSystem": "percent",
+            "x": 50,
+            "y": 64
+          },
+          {
+            "waypointId": "WP-L5-S5.5",
+            "sprintId": "S5.5",
+            "coordSystem": "percent",
+            "x": 61,
+            "y": 62
+          },
+          {
+            "waypointId": "WP-L5-S5.6",
+            "sprintId": "S5.6",
+            "coordSystem": "percent",
+            "x": 44,
+            "y": 62
+          },
+          {
+            "waypointId": "WP-L5-S5.7",
+            "sprintId": "S5.7",
+            "coordSystem": "percent",
+            "x": 54,
+            "y": 54
+          },
+          {
+            "waypointId": "WP-L5-S5.8",
+            "sprintId": "S5.8",
+            "coordSystem": "percent",
+            "x": 57,
+            "y": 60
+          },
+          {
+            "waypointId": "WP-L5-S5.9",
+            "sprintId": "S5.9",
+            "coordSystem": "percent",
+            "x": 49,
+            "y": 55
+          }
+        ],
+        "name": {
+          "source": "Okinawa Waves",
+          "target": "沖縄の波",
+          "romanization": "okinawa no nami"
         },
         "description": {
           "source": "Unit 5: Ambitions",
