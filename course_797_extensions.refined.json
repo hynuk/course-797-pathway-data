@@ -1941,7 +1941,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "食べ物と飲み物の文化",
+            "target": "食事と文化",
             "romanization": "tabemono to nomimono no bunka"
           },
           "description": {
@@ -2001,7 +2001,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "説明と明確化",
+            "target": "説明と確認",
             "romanization": "setsumei to meikakuka"
           },
           "description": {
@@ -2222,7 +2222,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "レクリエーションとリラックス",
+            "target": "余暇と休息",
             "romanization": "rekurieeshon to rirakkusu"
           },
           "description": {
@@ -2282,7 +2282,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "ショッピングと服装",
+            "target": "買い物と服装",
             "romanization": "shoppingu to fukusou"
           },
           "description": {
@@ -2342,7 +2342,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "外見とユーモア",
+            "target": "外見と性格",
             "romanization": "gaiken to yuumoa"
           },
           "description": {
@@ -2362,7 +2362,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "意見と大衆文化",
+            "target": "意見と文化",
             "romanization": "iken to taishuu bunka"
           },
           "description": {
@@ -2563,7 +2563,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "スポーツとフィットネス",
+            "target": "運動と健康",
             "romanization": "supootsu to fittonesu"
           },
           "description": {
@@ -2583,7 +2583,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "家族と名前の由来",
+            "target": "家族と名前",
             "romanization": "kazoku to namae no yurai"
           },
           "description": {
@@ -2603,7 +2603,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "歴史的人物と出来事",
+            "target": "歴史と人物",
             "romanization": "rekishiteki jinbutsu to dekigoto"
           },
           "description": {
@@ -2623,7 +2623,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "考えと感情",
+            "target": "感情と思考",
             "romanization": "kangae to kanjou"
           },
           "description": {
@@ -2784,7 +2784,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "ホテルと観光地",
+            "target": "ホテルと観光",
             "romanization": "hoteru to kankouchi"
           },
           "description": {
@@ -2804,7 +2804,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "住宅探しと引っ越し",
+            "target": "住居と引っ越し",
             "romanization": "juutaku sagashi to hikkoshi"
           },
           "description": {
@@ -2844,7 +2844,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "教育とキャリア",
+            "target": "教育と仕事",
             "romanization": "kyouiku to kyaria"
           },
           "description": {
@@ -2864,7 +2864,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "緊急事態と援助",
+            "target": "緊急と支援",
             "romanization": "kinkyuu jitai to enjo"
           },
           "description": {
@@ -2884,7 +2884,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "美容と理容サービス",
+            "target": "美容と理容",
             "romanization": "biyou to riyou saabisu"
           },
           "description": {
@@ -2904,7 +2904,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "家庭と生活様式",
+            "target": "家庭と生活",
             "romanization": "katei to seikatsu youshiki"
           },
           "description": {
@@ -2924,7 +2924,7 @@
             "source": {
               "inheritFromChapter": true
             },
-            "target": "イベントとスケジュール",
+            "target": "予定と行事",
             "romanization": "ibento to sukejuuru"
           },
           "description": {
