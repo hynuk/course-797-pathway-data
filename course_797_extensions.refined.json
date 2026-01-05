@@ -4,13 +4,14 @@
   "releaseId": 45,
   "variant": "default",
   "metadata": {
-    "generatedAt": "2026-01-05T18:01:45.329664+00:00",
+    "generatedAt": "2026-01-05T23:41:53.091745+00:00",
     "sourceFile": "course_797_extensions.fixed.json",
     "optimizations": [
       "removed_duplicate_artifacts_from_levels",
       "added_validation_metadata",
       "added_statistics",
-      "removed_redundant_scene_data"
+      "removed_redundant_scene_data",
+      "updated_to_media_naming_convention"
     ],
     "validation": {
       "status": "passed",
@@ -1686,8 +1687,8 @@
           "type": "",
           "status": "complete",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/small-talk-foreground.png",
-          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/small-talk-background.png"
+          "foregroundImageId": "IMG-S1.1-FG",
+          "backgroundImageId": "IMG-S1.1-BG"
         },
         {
           "sprintId": "S1.2",
@@ -1706,8 +1707,8 @@
           "type": "",
           "status": "ready",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/directions-foreground.png",
-          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/directions-background.png"
+          "foregroundImageId": "IMG-S1.2-FG",
+          "backgroundImageId": "IMG-S1.2-BG"
         },
         {
           "sprintId": "S1.3",
@@ -1726,8 +1727,8 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/introductions-professions-foreground.png",
-          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/introductions-professions-background.png"
+          "foregroundImageId": "IMG-S1.3-FG",
+          "backgroundImageId": "IMG-S1.3-BG"
         },
         {
           "sprintId": "S1.4",
@@ -1746,8 +1747,8 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/info-personal-preferences-foreground.png",
-          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-797-pathway-data/main/course-797-thumbnails/info-personal-preferences-background.png"
+          "foregroundImageId": "IMG-S1.4-FG",
+          "backgroundImageId": "IMG-S1.4-BG"
         }
       ],
       "progress": {
