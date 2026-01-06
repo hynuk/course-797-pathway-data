@@ -4,7 +4,7 @@
   "releaseId": 45,
   "variant": "default",
   "metadata": {
-    "generatedAt": "2026-01-05T23:43:24.718576+00:00",
+    "generatedAt": "2026-01-06T01:13:25.969402+00:00",
     "sourceFile": "course_797_extensions.fixed.json",
     "optimizations": [
       "removed_duplicate_artifacts_from_levels",
@@ -12,7 +12,8 @@
       "added_statistics",
       "removed_redundant_scene_data",
       "updated_to_media_naming_convention",
-      "added_full_image_urls"
+      "added_full_image_urls",
+      "updated_waypoint_coordinates"
     ],
     "validation": {
       "status": "passed",
@@ -164,23 +165,23 @@
         "waypoints": [
           {
             "waypointId": "WP-L1-S1.1",
-            "x": 45,
-            "y": 56
+            "x": 20,
+            "y": 75
           },
           {
             "waypointId": "WP-L1-S1.2",
-            "x": 52,
-            "y": 58
+            "x": 45,
+            "y": 70
           },
           {
             "waypointId": "WP-L1-S1.3",
-            "x": 58,
-            "y": 55
+            "x": 65,
+            "y": 75
           },
           {
             "waypointId": "WP-L1-S1.4",
             "x": 50,
-            "y": 63
+            "y": 85
           }
         ]
       },
@@ -191,53 +192,53 @@
         "waypoints": [
           {
             "waypointId": "WP-L2-S2.1",
-            "x": 46,
-            "y": 55
+            "x": 25,
+            "y": 70
           },
           {
             "waypointId": "WP-L2-S2.2",
-            "x": 51,
-            "y": 58
+            "x": 40,
+            "y": 65
           },
           {
             "waypointId": "WP-L2-S2.3",
-            "x": 56,
-            "y": 54
+            "x": 50,
+            "y": 60
           },
           {
             "waypointId": "WP-L2-S2.4",
-            "x": 49,
-            "y": 62
+            "x": 60,
+            "y": 65
           },
           {
             "waypointId": "WP-L2-S2.5",
-            "x": 60,
-            "y": 61
+            "x": 75,
+            "y": 70
           },
           {
             "waypointId": "WP-L2-S2.6",
-            "x": 44,
-            "y": 62
+            "x": 30,
+            "y": 80
           },
           {
             "waypointId": "WP-L2-S2.7",
-            "x": 53,
-            "y": 52
+            "x": 55,
+            "y": 75
           },
           {
             "waypointId": "WP-L2-S2.8",
-            "x": 57,
-            "y": 58
+            "x": 70,
+            "y": 80
           },
           {
             "waypointId": "WP-L2-S2.9",
-            "x": 48,
-            "y": 54
+            "x": 45,
+            "y": 85
           },
           {
             "waypointId": "WP-L2-S2.10",
-            "x": 54,
-            "y": 64
+            "x": 65,
+            "y": 85
           }
         ]
       },
@@ -248,48 +249,48 @@
         "waypoints": [
           {
             "waypointId": "WP-L3-S3.1",
-            "x": 47,
-            "y": 56
+            "x": 22,
+            "y": 72
           },
           {
             "waypointId": "WP-L3-S3.2",
-            "x": 52,
-            "y": 59
+            "x": 38,
+            "y": 68
           },
           {
             "waypointId": "WP-L3-S3.3",
-            "x": 58,
-            "y": 56
+            "x": 52,
+            "y": 72
           },
           {
             "waypointId": "WP-L3-S3.4",
-            "x": 50,
-            "y": 64
+            "x": 68,
+            "y": 68
           },
           {
             "waypointId": "WP-L3-S3.5",
-            "x": 61,
-            "y": 62
+            "x": 30,
+            "y": 82
           },
           {
             "waypointId": "WP-L3-S3.6",
-            "x": 44,
-            "y": 61
+            "x": 48,
+            "y": 78
           },
           {
             "waypointId": "WP-L3-S3.7",
-            "x": 55,
-            "y": 53
+            "x": 62,
+            "y": 82
           },
           {
             "waypointId": "WP-L3-S3.8",
-            "x": 57,
-            "y": 60
+            "x": 42,
+            "y": 88
           },
           {
             "waypointId": "WP-L3-S3.9",
-            "x": 49,
-            "y": 54
+            "x": 58,
+            "y": 88
           }
         ]
       },
@@ -300,48 +301,48 @@
         "waypoints": [
           {
             "waypointId": "WP-L4-S4.1",
-            "x": 46,
-            "y": 57
+            "x": 24,
+            "y": 70
           },
           {
             "waypointId": "WP-L4-S4.2",
-            "x": 51,
-            "y": 60
+            "x": 40,
+            "y": 66
           },
           {
             "waypointId": "WP-L4-S4.3",
             "x": 56,
-            "y": 56
+            "y": 70
           },
           {
             "waypointId": "WP-L4-S4.4",
-            "x": 49,
-            "y": 64
+            "x": 72,
+            "y": 66
           },
           {
             "waypointId": "WP-L4-S4.5",
-            "x": 60,
-            "y": 62
+            "x": 32,
+            "y": 80
           },
           {
             "waypointId": "WP-L4-S4.6",
-            "x": 44,
-            "y": 62
+            "x": 50,
+            "y": 76
           },
           {
             "waypointId": "WP-L4-S4.7",
-            "x": 53,
-            "y": 54
+            "x": 66,
+            "y": 80
           },
           {
             "waypointId": "WP-L4-S4.8",
-            "x": 58,
-            "y": 60
+            "x": 44,
+            "y": 86
           },
           {
             "waypointId": "WP-L4-S4.9",
-            "x": 50,
-            "y": 55
+            "x": 60,
+            "y": 86
           }
         ]
       },
@@ -352,48 +353,48 @@
         "waypoints": [
           {
             "waypointId": "WP-L5-S5.1",
-            "x": 47,
-            "y": 57
+            "x": 20,
+            "y": 75
           },
           {
             "waypointId": "WP-L5-S5.2",
-            "x": 52,
-            "y": 60
+            "x": 35,
+            "y": 70
           },
           {
             "waypointId": "WP-L5-S5.3",
-            "x": 58,
-            "y": 56
+            "x": 50,
+            "y": 65
           },
           {
             "waypointId": "WP-L5-S5.4",
-            "x": 50,
-            "y": 64
+            "x": 65,
+            "y": 70
           },
           {
             "waypointId": "WP-L5-S5.5",
-            "x": 61,
-            "y": 62
+            "x": 75,
+            "y": 75
           },
           {
             "waypointId": "WP-L5-S5.6",
-            "x": 44,
-            "y": 62
+            "x": 30,
+            "y": 82
           },
           {
             "waypointId": "WP-L5-S5.7",
-            "x": 54,
-            "y": 54
+            "x": 55,
+            "y": 78
           },
           {
             "waypointId": "WP-L5-S5.8",
-            "x": 57,
-            "y": 60
+            "x": 70,
+            "y": 82
           },
           {
             "waypointId": "WP-L5-S5.9",
-            "x": 49,
-            "y": 55
+            "x": 48,
+            "y": 88
           }
         ]
       }
