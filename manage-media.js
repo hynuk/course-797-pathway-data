@@ -196,17 +196,17 @@ function resolveImageIdToFilename(imageId, type = 'foreground') {
     return `scene-${levelId}.png`;
   }
 
-  // Handle sprint title illustrations: "IMG-S1.1-TITLE" -> "sprint-l1-s1-title.svg"
+  // Handle sprint title illustrations: "IMG-S1.1-TITLE" -> "sprint-l1-s1-title.png"
   if (imageId.includes('-TITLE')) {
     const sprintId = imageId.replace('IMG-', '').replace('-TITLE', '');
     const match = sprintId.match(/^S(\d+)\.(\d+)$/);
     if (match) {
       const level = match[1];
       const sprint = match[2];
-      return `sprint-l${level}-s${sprint}-title.svg`;
+      return `sprint-l${level}-s${sprint}-title.png`;
     }
     // Fallback to old format for compatibility
-    return `sprint-${sprintId.toLowerCase()}-title.svg`;
+    return `sprint-${sprintId.toLowerCase()}-title.png`;
   }
 
   // Generic fallback (shouldn't happen with proper Image IDs)
