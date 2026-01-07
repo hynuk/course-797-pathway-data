@@ -1806,8 +1806,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s2.1-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s1-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s1-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s1-title.png"
         },
         {
           "sprintId": "S2.2",
@@ -1826,8 +1827,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s2.2-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s2-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s2-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s2-title.png"
         },
         {
           "sprintId": "S2.3",
@@ -1846,8 +1848,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s2.3-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s3-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s3-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s3-title.png"
         },
         {
           "sprintId": "S2.4",
@@ -1866,8 +1869,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s2.4-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s4-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s4-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s4-title.png"
         },
         {
           "sprintId": "S2.5",
@@ -2034,8 +2038,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s3.1-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s1-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s1-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s1-title.png"
         },
         {
           "sprintId": "S3.2",
@@ -2054,8 +2059,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s3.2-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s2-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s2-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s2-title.png"
         },
         {
           "sprintId": "S3.3",
@@ -2074,8 +2080,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s3.3-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s3-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s3-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s3-title.png"
         },
         {
           "sprintId": "S3.4",
@@ -2094,8 +2101,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s3.4-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s4-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s4-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s4-title.png"
         },
         {
           "sprintId": "S3.5",
@@ -2242,8 +2250,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s4.1-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s1-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s1-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s1-title.png"
         },
         {
           "sprintId": "S4.2",
@@ -2262,8 +2271,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s4.2-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s2-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s2-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s2-title.png"
         },
         {
           "sprintId": "S4.3",
@@ -2282,8 +2292,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s4.3-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s3-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s3-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s3-title.png"
         },
         {
           "sprintId": "S4.4",
@@ -2302,8 +2313,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s4.4-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s4-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s4-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s4-title.png"
         },
         {
           "sprintId": "S4.5",
@@ -2450,8 +2462,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s5.1-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s1-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s1-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s1-title.png"
         },
         {
           "sprintId": "S5.2",
@@ -2470,8 +2483,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s5.2-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s2-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s2-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s2-title.png"
         },
         {
           "sprintId": "S5.3",
@@ -2490,8 +2504,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s5.3-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s3-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s3-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s3-title.png"
         },
         {
           "sprintId": "S5.4",
@@ -2510,8 +2525,9 @@
           "type": "",
           "status": "locked",
           "sessions": [],
-          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/sprint-s5.4-fg.png",
-          "backgroundImageId": null
+          "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s4-fg.png",
+          "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s4-bg.png",
+          "titleIllustrationId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/titles/sprint-l1-s4-title.png"
         },
         {
           "sprintId": "S5.5",
