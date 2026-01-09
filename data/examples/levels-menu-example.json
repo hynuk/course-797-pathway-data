@@ -1,0 +1,88 @@
+[
+  {
+    "levelId": "L1",
+    "levelNumber": 1,
+    "unitId": 10002032,
+    "name": "Tokyo Nights",
+    "nameTarget": "東京の夜",
+    "nameRomanization": "toukyou no yoru",
+    "description": "Unit 1: Introductions",
+    "descriptionTarget": "",
+    "sceneId": "SCN-L1",
+    "sprintCount": 4,
+    "imageId": null,
+    "firstSprint": {
+      "sprintId": "S1.1",
+      "name": "挨拶と雑談"
+    }
+  },
+  {
+    "levelId": "L2",
+    "levelNumber": 2,
+    "unitId": 10002033,
+    "name": "Kyoto Lanterns",
+    "nameTarget": "京都の灯",
+    "nameRomanization": "kyouto no tomoshibi",
+    "description": "Unit 2: Connections",
+    "descriptionTarget": "",
+    "sceneId": "SCN-L2",
+    "sprintCount": 10,
+    "imageId": null,
+    "firstSprint": {
+      "sprintId": "S2.1",
+      "name": "場所と道順"
+    }
+  },
+  {
+    "levelId": "L3",
+    "levelNumber": 3,
+    "unitId": 10002034,
+    "name": "Osaka Pulse",
+    "nameTarget": "大阪の熱",
+    "nameRomanization": "oosaka no netsu",
+    "description": "Unit 3: Community",
+    "descriptionTarget": "",
+    "sceneId": "SCN-L3",
+    "sprintCount": 9,
+    "imageId": null,
+    "firstSprint": {
+      "sprintId": "S3.1",
+      "name": "友達と関係"
+    }
+  },
+  {
+    "levelId": "L4",
+    "levelNumber": 4,
+    "unitId": 10002035,
+    "name": "Sapporo Snow",
+    "nameTarget": "札幌の雪",
+    "nameRomanization": "sapporo no yuki",
+    "description": "Unit 4: Lifestyle",
+    "descriptionTarget": "",
+    "sceneId": "SCN-L4",
+    "sprintCount": 9,
+    "imageId": null,
+    "firstSprint": {
+      "sprintId": "S4.1",
+      "name": "病院と薬局"
+    }
+  },
+  {
+    "levelId": "L5",
+    "levelNumber": 5,
+    "unitId": 10002036,
+    "name": "Okinawa Waves",
+    "nameTarget": "沖縄の波",
+    "nameRomanization": "okinawa no nami",
+    "description": "Unit 5: Ambitions",
+    "descriptionTarget": "",
+    "sceneId": "SCN-L5",
+    "sprintCount": 9,
+    "imageId": null,
+    "firstSprint": {
+      "sprintId": "S5.1",
+      "name": "空港と税関"
+    }
+  }
+]
+

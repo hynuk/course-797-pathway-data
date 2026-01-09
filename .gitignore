@@ -3,6 +3,40 @@ course_797_extensions.fixed.json
 course_797_extensions.json
 course_797_extensions.optimized.json
 
-# Keep course-797.json as reference
-# course-797.json
+# Backup files
+*.backup.json
+*.bak
+data/**/*.backup.json
+
+# Temporary files
+temp.json
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 

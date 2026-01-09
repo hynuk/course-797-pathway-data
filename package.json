@@ -1,0 +1,26 @@
+{
+  "name": "mango-pathway",
+  "version": "1.0.0",
+  "description": "Course 797 Pathway Data Repository",
+  "private": true,
+  "scripts": {
+    "extract:levels": "node scripts/data/extract-levels-menu.js",
+    "media:report": "node scripts/media/manage-media.js report",
+    "media:missing": "node scripts/media/manage-media.js missing",
+    "media:organize": "node scripts/media/organize-media.js plan",
+    "version:bump": "node scripts/version/version-bump.js",
+    "version:patch": "node scripts/version/version-bump.js patch",
+    "version:minor": "node scripts/version/version-bump.js minor",
+    "version:major": "node scripts/version/version-bump.js major"
+  },
+  "keywords": [
+    "course-data",
+    "pathway",
+    "language-learning"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
