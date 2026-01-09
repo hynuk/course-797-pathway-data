@@ -4,7 +4,7 @@
   "releaseId": 45,
   "variant": "default",
   "metadata": {
-    "generatedAt": "2026-01-09T19:16:08.166707+00:00",
+    "generatedAt": "2026-01-09T19:17:09.033785+00:00",
     "sourceFile": "course_797_extensions.fixed.json",
     "optimizations": [
       "removed_duplicate_artifacts_from_levels",
@@ -166,7 +166,7 @@
           {
             "waypointId": "WP-L1-S1.1",
             "x": 24.0,
-            "y": 69.44
+            "y": 67.71
           },
           {
             "waypointId": "WP-L1-S1.2",
@@ -176,12 +176,12 @@
           {
             "waypointId": "WP-L1-S1.3",
             "x": 62.0,
-            "y": 60.42
+            "y": 58.68
           },
           {
             "waypointId": "WP-L1-S1.4",
             "x": 74.7,
-            "y": 80.73
+            "y": 78.99
           }
         ]
       },
