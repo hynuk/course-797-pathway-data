@@ -4,7 +4,7 @@
   "releaseId": 45,
   "variant": "default",
   "metadata": {
-    "generatedAt": "2026-01-09T19:17:09.033785+00:00",
+    "generatedAt": "2026-01-09T20:30:00.000000+00:00",
     "sourceFile": "course_797_extensions.fixed.json",
     "optimizations": [
       "removed_duplicate_artifacts_from_levels",
@@ -13,7 +13,8 @@
       "removed_redundant_scene_data",
       "updated_to_media_naming_convention",
       "added_full_image_urls",
-      "updated_waypoint_coordinates_from_pixel_coordinates"
+      "updated_waypoint_coordinates_from_pixel_coordinates",
+      "added_top_level_progress_tracking"
     ],
     "validation": {
       "status": "passed",
@@ -1653,6 +1654,13 @@
         ]
       }
     ]
+  },
+  "progress": {
+    "currentLevelId": "L1",
+    "currentSprintId": "S1.2",
+    "lastCompletedLevelId": "L1",
+    "lastCompletedSprintId": "S1.1",
+    "note": "Top-level progress tracks overall course resume point. Each level also has its own progress object for per-level resume points, allowing users to return to any level and resume where they left off."
   },
   "levels": [
     {
