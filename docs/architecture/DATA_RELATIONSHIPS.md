@@ -19,6 +19,8 @@ The **Pathway Extensions** file (`course_797_extensions.refined.json`) adds:
 
 **Together**, they create a complete pathway where learners navigate through visual levels and sprints that map to the underlying course units and chapters.
 
+> **📖 Status System**: For detailed information about level and sprint status values, progress tracking, and UI implementation, see [STATUS_SYSTEM.md](./STATUS_SYSTEM.md).
+
 ---
 
 ## Core Relationships
@@ -331,7 +333,7 @@ if (sprint.status === "ready" || sprint.status === "complete") {
 | `unitId` | Links to Course Data unit | `10002032` |
 | `sprintId` | Unique sprint identifier | `"S1.1"` |
 | `chapterId` | Links to Course Data chapter | `10025680` |
-| `status` | Sprint progress state | `"complete"`, `"ready"`, `"locked"` |
+| `status` | Progress state (see [STATUS_SYSTEM.md](./STATUS_SYSTEM.md)) | Level: `"locked"`, `"not_started"`, `"in_progress"`, `"complete"`<br>Sprint: `"locked"`, `"ready"`, `"complete"` |
 | `foregroundImageId` | Sprint card foreground image URL | `"https://..."` |
 | `backgroundImageId` | Sprint card background image URL | `"https://..."` |
 

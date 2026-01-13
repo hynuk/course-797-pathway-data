@@ -1666,6 +1666,7 @@
     {
       "levelId": "L1",
       "unitId": 10002032,
+      "status": "in_progress",
       "name": {
         "source": {
           "inheritFromUnit": true
@@ -1778,6 +1779,7 @@
     {
       "levelId": "L2",
       "unitId": 10002033,
+      "status": "locked",
       "name": {
         "source": {
           "inheritFromUnit": true
@@ -2009,13 +2011,14 @@
         }
       ],
       "progress": {
-        "lastCompletedSprintId": "none",
-        "currentSprintId": "none"
+        "lastCompletedSprintId": null,
+        "currentSprintId": null
       }
     },
     {
       "levelId": "L3",
       "unitId": 10002034,
+      "status": "locked",
       "name": {
         "source": {
           "inheritFromUnit": true
@@ -2226,13 +2229,14 @@
         }
       ],
       "progress": {
-        "lastCompletedSprintId": "none",
-        "currentSprintId": "none"
+        "lastCompletedSprintId": null,
+        "currentSprintId": null
       }
     },
     {
       "levelId": "L4",
       "unitId": 10002035,
+      "status": "locked",
       "name": {
         "source": {
           "inheritFromUnit": true
@@ -2443,13 +2447,14 @@
         }
       ],
       "progress": {
-        "lastCompletedSprintId": "none",
-        "currentSprintId": "none"
+        "lastCompletedSprintId": null,
+        "currentSprintId": null
       }
     },
     {
       "levelId": "L5",
       "unitId": 10002036,
+      "status": "locked",
       "name": {
         "source": {
           "inheritFromUnit": true
@@ -2660,8 +2665,8 @@
         }
       ],
       "progress": {
-        "lastCompletedSprintId": "none",
-        "currentSprintId": "none"
+        "lastCompletedSprintId": null,
+        "currentSprintId": null
       }
     }
   ]
