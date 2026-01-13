@@ -2009,8 +2009,8 @@
         }
       ],
       "progress": {
-        "lastCompletedSprintId": null,
-        "currentSprintId": null
+        "lastCompletedSprintId": "none",
+        "currentSprintId": "none"
       }
     },
     {
@@ -2226,8 +2226,8 @@
         }
       ],
       "progress": {
-        "lastCompletedSprintId": null,
-        "currentSprintId": null
+        "lastCompletedSprintId": "none",
+        "currentSprintId": "none"
       }
     },
     {
@@ -2443,8 +2443,8 @@
         }
       ],
       "progress": {
-        "lastCompletedSprintId": null,
-        "currentSprintId": null
+        "lastCompletedSprintId": "none",
+        "currentSprintId": "none"
       }
     },
     {
@@ -2660,8 +2660,8 @@
         }
       ],
       "progress": {
-        "lastCompletedSprintId": null,
-        "currentSprintId": null
+        "lastCompletedSprintId": "none",
+        "currentSprintId": "none"
       }
     }
   ]
