@@ -8,71 +8,74 @@ This document explains the unified status system used for tracking progress and 
 
 The status system provides a clean, scalable way to track:
 - **Level Status**: Whether a level is locked, not started, in progress, or complete
-- **Sprint Status**: Whether a sprint is locked, ready to start, or complete
+- **Sprint Status**: Whether a sprint is locked, not started, in progress, or complete
 - **Progress Tracking**: Which sprint is currently active and which was last completed
 
 ---
 
-## Status Values
+## Unified Status Values
 
-### Shared Status Values
-
-These status values have the same meaning for both levels and sprints:
-
-| Status | Meaning | Applies To |
-|--------|---------|------------|
-| `"locked"` | Not accessible yet. User must complete prerequisite content first. | Levels, Sprints |
-| `"complete"` | Finished. All content has been completed. | Levels, Sprints |
-
-### Level-Specific Status Values
-
-Levels are **containers** that can have multiple sprints in different states. Level status reflects the overall state of the container:
+The status system uses **the same 4 states for both levels and sprints**, providing consistency and simplicity:
 
 | Status | Meaning | When Used |
 |--------|---------|-----------|
-| `"not_started"` | Level is unlocked but no sprints have been started yet. | Level unlocked, `progress.currentSprintId === null` |
-| `"in_progress"` | At least one sprint has been started, but not all sprints are complete. | Level has active or completed sprints, but not all complete |
-| `"complete"` | All sprints in the level are complete. | All sprints have `status === "complete"` |
-| `"locked"` | Level is not accessible yet. Previous level must be completed first. | Default for levels L2+ until prerequisites met |
+| `"locked"` | Not accessible yet. User must complete prerequisite content first. | Prerequisites not met |
+| `"not_started"` | Available but not started yet. Content is unlocked and ready to begin. | Unlocked, `progress.currentSprintId === null` (for levels) or not the active sprint |
+| `"in_progress"` | Currently active/being worked on. User has started this content. | Matches `progress.currentSprintId` (for sprints) or has active sprints (for levels) |
+| `"complete"` | Finished. All content has been completed. | All sessions/lessons completed |
 
-### Sprint-Specific Status Values
+### Why Unified?
 
-Sprints are **sequential items** within a level. Sprint status indicates position in the sequence:
+1. **Consistency**: Same states mean the same thing across all entities
+2. **Simplicity**: One set of states to learn and implement
+3. **Clarity**: `"not_started"` is more descriptive than `"ready"` for available-but-not-started content
+4. **Accuracy**: `"in_progress"` clearly indicates active work, not just "next available"
 
-| Status | Meaning | When Used |
-|--------|---------|-----------|
-| `"ready"` | Next sprint available to start. Previous sprint is complete. | Previous sprint `status === "complete"`, this sprint is next |
-| `"complete"` | Sprint has been finished. | All sessions/lessons in sprint completed |
-| `"locked"` | Sprint is not accessible yet. Previous sprint must be completed first. | Default for all sprints except the first in a level |
+### Level vs Sprint Usage
+
+While both use the same states, they apply differently:
+
+**Levels (Containers):**
+- `"locked"`: Previous level not complete
+- `"not_started"`: Unlocked but no sprints started (`progress.currentSprintId === null`)
+- `"in_progress"`: At least one sprint started, not all complete
+- `"complete"`: All sprints in level are complete
+
+**Sprints (Sequential Items):**
+- `"locked"`: Previous sprint not complete
+- `"not_started"`: Available to start (previous sprint complete or this is first sprint)
+- `"in_progress"`: Currently active (`sprintId === progress.currentSprintId`)
+- `"complete"`: All sessions/lessons in sprint completed
 
 ---
 
 ## Status System Architecture
 
-### Unified System with Semantic Differences
+### Fully Unified System
 
-The status system is **unified** (shared common states) but allows **semantic differences** where appropriate:
+All entities use the same 4-state system:
 
 ```
 ┌─────────────────────────────────────────┐
-│         Shared States                   │
-│  • locked (same meaning)                │
-│  • complete (same meaning)               │
+│      Unified Status System              │
+│  • locked                               │
+│  • not_started                           │
+│  • in_progress                           │
+│  • complete                              │
 └─────────────────────────────────────────┘
            │              │
            ▼              ▼
 ┌──────────────────┐  ┌──────────────────┐
-│  Level States    │  │  Sprint States   │
-│  • not_started   │  │  • ready         │
-│  • in_progress   │  │                  │
+│  Levels          │  │  Sprints         │
+│  (containers)    │  │  (sequential)     │
 └──────────────────┘  └──────────────────┘
 ```
 
-**Why Different States?**
-
-1. **Levels are containers**: A level can be `"in_progress"` while containing sprints with mixed states (`complete`, `ready`, `locked`)
-2. **Sprints are sequential**: The `"ready"` state indicates the next actionable item in a sequence
-3. **Shared semantics**: `"locked"` and `"complete"` mean the same thing for both, maintaining consistency
+**Benefits:**
+- **Consistent**: Same states, same meaning
+- **Scalable**: Works for any number of levels/sprints
+- **Maintainable**: One system to understand
+- **Type-safe**: Clear state transitions
 
 ---
 
@@ -166,12 +169,12 @@ function calculateSprintStatus(sprint, previousSprint, levelProgress) {
   
   // Check if this is the current active sprint
   if (levelProgress.currentSprintId === sprint.sprintId) {
-    return "ready"; // Active sprint is always "ready"
+    return "in_progress"; // Active sprint is "in_progress"
   }
   
-  // Check if previous sprint is complete (this one is next)
+  // Check if previous sprint is complete (this one is available to start)
   if (!previousSprint || previousSprint.status === "complete") {
-    return "ready";
+    return "not_started"; // Available but not started
   }
   
   return "locked";
@@ -225,8 +228,10 @@ function renderSprintStatus(sprint, isActive) {
   switch (sprint.status) {
     case "locked":
       return <LockIcon />;
-    case "ready":
+    case "not_started":
       return <PlayButton />;
+    case "in_progress":
+      return <ActiveBadge />;
     case "complete":
       return <CheckmarkIcon />;
   }
@@ -250,7 +255,7 @@ function canAccessLevel(level) {
 
 // Check if sprint can be started
 function canStartSprint(sprint) {
-  return sprint.status === "ready";
+  return sprint.status === "not_started" || sprint.status === "in_progress";
 }
 ```
 
@@ -276,16 +281,17 @@ locked → not_started → in_progress → complete
 ### Sprint State Transitions
 
 ```
-locked → ready → complete
-  ↑        ↓
-  └────────┘
+locked → not_started → in_progress → complete
+  ↑         ↑              ↓
+  └─────────┴──────────────┘
   (if user goes back)
 ```
 
 **Transitions:**
-1. `locked` → `ready`: Previous sprint completed
-2. `ready` → `complete`: Sprint finished
-3. `complete` → `ready`: User returns to sprint (if allowed)
+1. `locked` → `not_started`: Previous sprint completed
+2. `not_started` → `in_progress`: Sprint started (`currentSprintId` set)
+3. `in_progress` → `complete`: Sprint finished
+4. `complete` → `in_progress`: User returns to sprint (if allowed)
 
 ---
 
@@ -305,7 +311,7 @@ locked → ready → complete
     },
     {
       "sprintId": "S1.2",
-      "status": "ready"
+      "status": "in_progress"
     },
     {
       "sprintId": "S1.3",
@@ -399,7 +405,7 @@ const resumeSprint = level.sprints[0]; // Wrong!
 ```javascript
 // ✅ Good: Validate status values
 const validLevelStatuses = ["locked", "not_started", "in_progress", "complete"];
-const validSprintStatuses = ["locked", "ready", "complete"];
+const validSprintStatuses = ["locked", "not_started", "in_progress", "complete"];
 
 if (!validLevelStatuses.includes(level.status)) {
   console.error("Invalid level status:", level.status);
@@ -432,7 +438,8 @@ If migrating from a system that used different status values:
 |-----------|-----------|-------|
 | `"not_started"` (progress) | `null` | Use `null` for unstarted progress |
 | `"none"` (progress) | `null` | Standard JSON practice |
-| `"active"` (sprint) | `"ready"` | More descriptive |
+| `"ready"` (sprint) | `"not_started"` or `"in_progress"` | Use `"not_started"` for available, `"in_progress"` for active |
+| `"active"` (sprint) | `"in_progress"` | More descriptive |
 | `"started"` (level) | `"in_progress"` | More accurate for containers |
 
 ---
@@ -441,8 +448,7 @@ If migrating from a system that used different status values:
 
 The status system provides:
 
-✅ **Unified**: Shared common states (`locked`, `complete`)  
-✅ **Semantic**: Entity-specific states where needed (`in_progress`, `ready`)  
+✅ **Unified**: Same 4 states for all entities (`locked`, `not_started`, `in_progress`, `complete`)  
 ✅ **Scalable**: Works for any number of levels and sprints  
 ✅ **Type-safe**: Uses `null` for uninitialized (standard JSON)  
 ✅ **Maintainable**: Clear, explicit status values  

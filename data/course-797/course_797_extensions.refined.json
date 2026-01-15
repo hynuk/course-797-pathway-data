@@ -1722,7 +1722,7 @@
             "target": "このスプリントでは、誰かが話せる言語や出身地を尋ね、伝える方法を学びます。また、動詞の現在形の肯定形と否定形、そして場所を示す助詞「に」の使い方も習得します。"
           },
           "type": "",
-          "status": "ready",
+          "status": "in_progress",
           "sessions": [],
           "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s2-fg.png",
           "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s2-bg.png",
