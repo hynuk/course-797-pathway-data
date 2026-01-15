@@ -1743,7 +1743,7 @@
             "target": "このスプリントでは、自分や他人を紹介し、名前、国籍、職業を伝える方法を学びます。また、「わたし」などの一人称代名詞や、話題を示す助詞「は」の使い方も習得します。"
           },
           "type": "",
-          "status": "locked",
+          "status": "not_started",
           "sessions": [],
           "foregroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s3-fg.png",
           "backgroundImageId": "https://raw.githubusercontent.com/hynuk/course-pathway-data/main/assets/course-797/sprints/images/sprint-l1-s3-bg.png",
